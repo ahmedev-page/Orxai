@@ -1,0 +1,189 @@
+
+--- 2026-09-03T03:36:02.136Z debug
+🪵  Writing logs to "/home/runner/workspace/.config/.wrangler/logs/wrangler-2026-09-03_03-36-01_842.log"
+---
+
+--- 2026-09-03T03:36:02.135Z debug
+.env file not found at "/home/runner/workspace/workers/manfaz-api/.env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-09-03T03:36:02.136Z debug
+.env file not found at "/home/runner/workspace/workers/manfaz-api/.env.local". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-09-03T03:36:02.238Z log
+
+ ⛅️ wrangler 4.127.1
+────────────────────
+---
+
+--- 2026-09-03T03:36:02.252Z log
+Getting User settings...
+---
+
+--- 2026-09-03T03:36:02.253Z debug
+Metrics dispatcher: Posting data {"deviceId":"4e3b1bff-8faa-4cb0-9f2f-88a67699b99f","event":"wrangler command started","timestamp":1788406562253,"properties":{"amplitude_session_id":1788406562243,"amplitude_event_id":0,"wranglerVersion":"4.127.1","wranglerMajorVersion":4,"wranglerMinorVersion":127,"wranglerPatchVersion":1,"osPlatform":"Linux","osVersion":"#Replit-Linux SMP Fri Aug 28 06:22:54 UTC 2026","nodeVersion":24,"packageManager":"pnpm","isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":"replit","argsUsed":[],"argsCombination":"","sanitizedCommand":"whoami","sanitizedArgs":{},"currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-09-03T03:36:02.282Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/user/tokens/verify
+---
+
+--- 2026-09-03T03:36:02.283Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.283Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.283Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.283Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-09-03T03:36:02.483Z debug
+-- START CF API RESPONSE: Unauthorized 401
+---
+
+--- 2026-09-03T03:36:02.484Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.484Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.484Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-09-03T03:36:02.486Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/user
+---
+
+--- 2026-09-03T03:36:02.486Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.486Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.486Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.486Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-09-03T03:36:02.632Z debug
+-- START CF API RESPONSE: Forbidden 403
+---
+
+--- 2026-09-03T03:36:02.632Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.632Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.632Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-09-03T03:36:02.633Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts
+---
+
+--- 2026-09-03T03:36:02.633Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.633Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.633Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.633Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-09-03T03:36:02.633Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/memberships
+---
+
+--- 2026-09-03T03:36:02.633Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.633Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.633Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.633Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-09-03T03:36:02.744Z debug
+-- START CF API RESPONSE: Forbidden 403
+---
+
+--- 2026-09-03T03:36:02.744Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.744Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.744Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-09-03T03:36:02.753Z debug
+-- START CF API RESPONSE: Unauthorized 401
+---
+
+--- 2026-09-03T03:36:02.753Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.753Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-09-03T03:36:02.753Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-09-03T03:36:02.754Z log
+
+---
+
+--- 2026-09-03T03:36:02.887Z error
+✘ [ERROR] A request to the Cloudflare API (/accounts) failed.
+
+  Invalid access token [code: 9109]
+  
+  If you think this is a bug, please open an issue at:
+  https://github.com/cloudflare/workers-sdk/issues/new/choose
+
+
+---
+
+--- 2026-09-03T03:36:02.888Z debug
+Metrics dispatcher: Posting data {"deviceId":"4e3b1bff-8faa-4cb0-9f2f-88a67699b99f","event":"wrangler command errored","timestamp":1788406562888,"properties":{"amplitude_session_id":1788406562243,"amplitude_event_id":1,"wranglerVersion":"4.127.1","wranglerMajorVersion":4,"wranglerMinorVersion":127,"wranglerPatchVersion":1,"osPlatform":"Linux","osVersion":"#Replit-Linux SMP Fri Aug 28 06:22:54 UTC 2026","nodeVersion":24,"packageManager":"pnpm","isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":"replit","argsUsed":[],"argsCombination":"","sanitizedCommand":"whoami","sanitizedArgs":{},"durationMs":616,"errorType":"APIError","currentAgentSkillsInstalled":false}}
+---
