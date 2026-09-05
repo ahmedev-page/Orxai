@@ -1,0 +1,7 @@
+# pnpm approved builds for the worker subdir
+# Placed here because the Cloudflare build runs with Root directory = workers/manfaz-api
+# Allow build scripts for esbuild and workerd (any version)
+
+allowed:
+  - esbuild
+  - workerd
