@@ -1,0 +1,4 @@
+Rebuild trigger: force CI to pick up .pnpm-builds.yaml and perform a clean install
+
+This file was added automatically by GitHub Copilot to trigger a fresh rebuild on the CI provider.
+Timestamp: 2026-09-05T08:59:00Z
