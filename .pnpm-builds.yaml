@@ -1,11 +1,15 @@
-# pnpm approved builds - permissive entries
-# include multiple forms to match whatever pnpm prints in logs
+# pnpm approved builds - include platform-specific package ids from lockfile
+# Added entries for platform-specific packages that pnpm may report
 allowed:
-  - esbuild
-  - "esbuild@0.27.3"
   - name: "esbuild"
     version: "0.27.3"
-  - workerd
-  - "workerd@1.20260903.1"
+  - name: "@esbuild/linux-x64"
+    version: "0.27.3"
+  - name: "@esbuild/linux-arm64"
+    version: "0.27.3"
   - name: "workerd"
+    version: "1.20260903.1"
+  - name: "@cloudflare/workerd-linux-64"
+    version: "1.20260903.1"
+  - name: "@cloudflare/workerd-linux-arm64"
     version: "1.20260903.1"
