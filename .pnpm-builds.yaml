@@ -1,0 +1,8 @@
+# pnpm approved builds
+# This file lists dependency build scripts allowed to run during `pnpm install`.
+# If pnpm reports the file format is invalid, regenerate it by running `pnpm approve-builds` locally and committing the generated file.
+
+version: 1
+approved:
+  - "esbuild@0.27.3"
+  - "workerd@1.20260903.1"
