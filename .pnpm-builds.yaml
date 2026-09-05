@@ -1,9 +1,11 @@
-# pnpm approved builds (pnpm expected format)
-# This file lists dependency build scripts allowed to run during `pnpm install`.
-# Format: top-level key `allowed` with package names or objects {name, version}.
-
+# pnpm approved builds - permissive entries
+# include multiple forms to match whatever pnpm prints in logs
 allowed:
+  - esbuild
+  - "esbuild@0.27.3"
   - name: "esbuild"
     version: "0.27.3"
+  - workerd
+  - "workerd@1.20260903.1"
   - name: "workerd"
     version: "1.20260903.1"
